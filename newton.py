@@ -9,7 +9,6 @@ def der_1(f,x):
     return (f(x+h) - f(x))/h
 
 def der_2(f,x):
-    
     """
     Takes: a function f and real value x, 
     Returns: an approximation of the second derivative of f at that point 
