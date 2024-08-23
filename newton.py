@@ -6,7 +6,7 @@ def der_1(f,x):
     Takes: a function f and real value x, 
     Returns: an approximation of the derivative of f at that point 
     """
-    h = 1e-8
+    h = 2*1e-8
     return (f(x+h) - f(x))/h
 
 def der_2(f,x):
@@ -14,7 +14,7 @@ def der_2(f,x):
     Takes: a function f and real value x, 
     Returns: an approximation of the second derivative of f at that point 
     """
-    h = 1e-8
+    h = 2*1e-8
     return (f(x+h) -2*f(x) +f(x-h) )/h**2
     
 
